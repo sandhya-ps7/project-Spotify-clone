@@ -1,0 +1,201 @@
+Header,Value
+Crop,Wheat
+Current Area (million ha),31.62
+Current Production (million tonnes),109.52
+Share in Global Production (%),13.64
+National Productivity (kg/ha, 2020-21 Rabi),3464
+
+Year,Area (million ha),Production (million tonnes),Productivity (kg/ha)
+1904-1905,11.51,9.72,845
+
+Important Wheat Varieties (Early),Pusa4; Pusa6
+Rust Resistant Varieties,NP783; NP784; NP785; NP786; NP789; NP790
+Other Resistant Variety,NP809 (resistant to all three rusts and loose smut)
+
+Programme,Year,Headquarters
+All India Coordinated Wheat Improvement Project (AICWIP),1965,Indian Agricultural Research Institute (IARI), New Delhi
+
+High Yielding Varieties Developed,C 306; HD 2009; WL 711; UP 262; HUW 234; HD 2189; WH 147; Lok1; HD 617; HD 2285; HD 2329; PBW 343; Raj 3765; PBW 502; HD 2733; DBW 17; PBW 550; GW 273; GW 322; GW 496; HD 2967; HD 3086; DBW 187; WB 2 (bread wheat); Raj 1555; PBW 34; H 8498; PDW 233 (durum wheat)
+
+Improvement (1964-65 to 2020-21),Increase (%)
+Area,13.6
+Production,793
+Productivity,279
+
+Annual Growth in Wheat Production (since project started),4.72%
+Year,Area (m ha),Production (mt),Productivity (kg/ha)
+2020-21,31.62,109.52,3464
+1964-65,13.42,12.26,913
+1904-05,11.51,9.72,845
+
+Zone,Area
+North Western Plains Zone (NWPZ),"Punjab; Haryana; Delhi; Rajasthan (except Kota & Udaipur divisions); Western UP (except Jhansi division); Parts of J\&K (Jammu & Kathua); Parts of HP (Una & Paonta Valley); Uttarakhand (Tarai region)"
+North Eastern Plains Zone (NEPZ),"Eastern UP; Bihar; Jharkhand; Odisha; West Bengal; Assam; Plains of North Eastern States"
+Central Zone (CZ),"Madhya Pradesh; Chhattisgarh; Gujarat; Rajasthan (Kota & Udaipur divisions); Uttar Pradesh (Jhansi division)"
+Peninsular Zone (PZ),"Maharashtra; Karnataka; Andhra Pradesh; Telangana; Goa; Tamil Nadu"
+Northern Hills Zone (NHZ),"Western Himalayan regions of J\&K (except Jammu & Kathua districts); Himachal Pradesh (except Una & Paonta Valley); Uttarakhand (except Tarai); Sikkim; Hills of West Bengal & N.E. States"
+
+Crop species,CVRC,SVRC,Total
+Bread wheat (T. aestivum),293,169,462
+Durum (T. durum),50,23,73
+Dicoccum,6,1,7
+Triticale,4,1,5
+Total,353,193,546
+
+Category,Varieties
+Mega varieties up to 2012,"HD 2329; UP 2338; WH 542; PBW 343; PBW 550; DBW 17"
+Varieties up to 2017,"HD 2967; WH 1105; HD 3086; DBW 88"
+
+Category,Number of Varieties
+Biofortified wheat varieties,9
+Bread wheat (timely sown, irrigated),1
+Early sown, high fertility, irrigated,4
+Late sown, restricted irrigation,9
+Very late sown, irrigated,3
+Late sown, irrigated,2
+Category,Details
+Area under cultivation,NWPZ has the largest 12.33 mha area of wheat cultivation; Estimated production 55.82 mt; Productivity 4527 kg/ha; Contributes 41.73% share in total area and 55.82% share in total production of wheat in India
+Cropping system,Climatic conditions most ideal; Major part irrigated timely sown conditions (mainly rice–wheat rotation); Irrigated late sown (cotton–wheat in Punjab & Haryana; wheat–sugarcane in western UP)
+Major constraints,High cost of inputs; Intensive tillage; Excessive fertilizer & water use; Higher incidence of yellow rust; Terminal heat stress; Decline in water table; Low price of wheat; Erratic power supply; Phalaris minor infestation; Low organic matter in soil; Poor seed quality; Non-availability of quality seed; Chenopodium album infestation; Non-availability of electricity
+Major research institutes/universities,IARI New Delhi; PAU Ludhiana; CCSHAU Hisar; GBUA\&T Pantnagar; SKNA University Regional Station Durgapura
+Mega varieties up to 2012,HD 2329; UP 2338; WH 542; PBW 343; PBW 550; DBW 17
+Mega varieties up to 2017,HD 2967; WH 1105; HD 3086; DBW 88
+Wheat varieties developed in NWPZ (2018-23),"Biofortified: 9; Early sown, high fertility, irrigated: 4; Bread wheat for timely sown irrigated: 1; Very late sown irrigated: 3; Late sown irrigated: 2; Timely sown, restricted irrigation: 9"
+S. No,Name of Variety,Pedigree/Source,Developed by,Center of Breeding,Notification Date,Kharif Season,Average Yield (q/ha),Potential Yield (q/ha),Protein (%),Special Features
+1,DBW 327 (Karan Vandana),BORL14/CBW38//HD2967/3/WBLL4,ICAR-IIWBR,Karnal,05.06.2023,Rabi 2022,61.1,75.3,12.8,High grain Fe (41.1 ppm) & Zn (38.3 ppm); resistance to YR, LR, BR
+2,DBW 372 (Karan Narendra),PD0811/HEBCAR,ICAR-IIWBR,Karnal,05.06.2023,Rabi 2022,61.9,75.5,13.7,High Zn (42.5 ppm) & Fe (36.9 ppm); resistance to YR, LR, BR
+3,PBW 927, MUTUS/YWU22//2*MUCUZ,PAU,Ludhiana,29.01.2021,Rabi 2019,75.2,81.2,11.8,Absence of red grain color; resistance to YR, LR, BR; good chapati quality; Fe (42.3 ppm), Zn (47.8 ppm)
+4,DBW 303,WBLL1/BRAMBL/3*CAR,IWBR,Vaishali,06.01.2020,Rabi 2018,72.3,75.6,12.6,Resistant to YR, LR, BR; high Fe content (41.3 ppm), Zn (42.9 ppm)
+5,DBW 187 (Karan Vandana),NAC/THB/2*FRET2//4*BCN/3/BAV92/ND643/7/ACHT/9,ICAR-IIWBR,Karnal,06.01.2020,Rabi 2018,75.6,96.6,12.8,Resistance to YR, LR, BR; drought tolerant; good chapati quality; high Fe (41.7 ppm), Zn (40.8 ppm)
+6,PBW 771,3*B624/2*DBW17,PAU,Ludhiana,06.01.2020,Rabi 2018,50.3,63.3,12.5,High grain Fe (42.3 ppm), Zn (39.2 ppm); resistance to YR & BR; adaptable to late sown conditions
+7,PBW 752,PBW 621/2*PBW 550//CET3*PBW343,PAU,Ludhiana,01.04.2019,Rabi 2017,49.7,65.4,12.7,Yellow & brown rust resistant; protein enriched; high Fe (41.8 ppm), Zn (40.2 ppm)
+8,PBW 757,PBW 343\*3/BP9/PAU/COC37/3/PBW,PAU,Ludhiana,01.04.2019,Rabi 2017,36.7,44.9,12.1,High Fe (40.7 ppm), high Zn (42.2 ppm); suitable for late sown irrigated conditions
+S.N,Name of Variety,Parentage,Developed by,Notification Number and Date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special Features
+1,HD 3226 (Pusa Yashasvi),GRACKLE/HD 2894,ICAR-IARI New Delhi,1498(E), 01.04.2019,57.5,79.6,Resistance to yellow and brown rust; high gluten content (38.85%)
+2,JKW 261 (Birsa Gehun-4 Shaurya),ISENGRAIN/KBIRD/MUNAL#1,BAU Ranchi,8(E), 24.12.2021,51.7,66.6,Drought (DSI=0.93) and heat tolerant (HSI=0.88); resistant to yellow and brown rust
+3,HI 1621 (Pusa Wheat 1621),W15.92/4/PASTOR/H/ HXL7573/2*B/3/AU3/WBLL1,ICAR-IARI RS Indore,99(E), 06.01.2020,37.0,46.1,Matures in 102 days when sown late
+4,HD 3271 (Pusa Wheat 3271),CHIRYA 7/HD 2824,ICAR-IARI New Delhi,99(E), 06.01.2020,36.6,45.5,Suitable for very late sown conditions
+5,HI 1654 (Pusa Aditi),SOKOLL/3/PASTOR/R/HXL7573/2*B/AU/4/PANDION//FILIN/2*PASTOR/3/BERKUT,ICAR-IARI RS Indore,1056(E), 06.03.2023,51.8,78.2,Tolerant to wheat blast & leaf rust; good biscuit spread factor
+6,HI 1653 (Pusa Jagarti),NADI/COPIO/NA DI,ICAR-IARI RS Indore,1056(E), 06.03.2023,51.1,69.3,Resistant to wheat blast & leaf rust; high sedimentation value
+7,HD 3369 (Pusa Wheat 3369),NADI/COPIO/NA DI//HD3070/HD3078,ICAR-IARI RS Indore,1056(E), 06.03.2023,50.6,71.4,Resistance to yellow & brown rust; Fe (40.6 ppm)
+8,HUW 838,WBLL1*2/BRAMBLING/4/BABAX/LR42//BABAX*2/3/SHAMA*2/5/PBW343*2/KUKUNA*2//FRTL/PIFED,IAS BHU Varanasi,8(E), 24.12.2021,51.3,77.7,Resistant to wheat blast & all rusts; good agronomic adaptability under different irrigation; Zn (41.8 ppm)
+9,DBW 296 (Karan Aishwaraya),SOKOLL/3/PASTOR/R/HXL7573/2*B/AU/4/MASSIV/PP R47.89C (23rd SAWYT Entry No.321),ICAR-IIWBR Karnal,8(E), 24.12.2021,56.1,83.3,Tolerant to heat (HSI=1.02) & drought (0.75); high biscuit spread factor (9.5/10); high bread quality (8.2); chapati score (7.6)
+10,NIAW 3170 (Phule Satwik),SKOLL/ROLF07,MPKV ARS Niphad,3482(E), 07.10.2020,51.1,71.7,Soft grains; good biscuit spread factor (NWPZ:10.18)
+11,HI 1628 (Pusa Wheat 1628),FRET2*2/4/SNIT/RAP1/3/KAUZ*2/TRAP//KAUZ/5/PFAU/WEAVER/BRAMBLING,ICAR-IARI RS Indore,99(E), 06.01.2020,50.4,65.1,Highly resistant to brown rust under artificial epiphytotic condition; Hard grains (81.9)
+S.N,Name of Variety,Parentage,Developed by,Notification Number and Date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special Features
+1,DBW 372 (Karan Vandana),BOW/VL421/CHIRYA 3/BOBWHITE/3/HD 2285//WH 542,ICAR-IIWBR Karnal,1056(E),06.03.2023,73.5,84.9,Resistance to leaf rust; high Fe (41.2 ppm) and Zn (40.6 ppm); chapati score 7.9; biscuit spread factor 9.2; good grain quality
+2,DBW 303 (Karan Vaibhav),WBL1/2*BRAMBLING,ICAR-IIWBR Karnal,500(E),29.01.2021,81.2,97.4,Absence of yellow rust; high Zn (42.3 ppm), Fe (41.0 ppm); chapati score 7.6; biscuit spread factor 9.1; high grain protein (12.6%)
+3,PBW 872,MUTUS/2*MUCUZ//2*MUCUZ,PAU Ludhiana,99(E),06.01.2020,75.5,96.6,Resistance to yellow and brown rust; highly adaptable; high Fe (36.1 ppm); good chapati quality
+4,DBW 187 (Karan Vandana),RATTAN/2*PASTOR/3/SERI*3/4/BABAX/LR42//BABAX/3/SHAMA,ICAR-IIWBR Karnal,99(E),06.01.2020,75.5,96.6,Resistance to yellow and brown rust; good adaptability; high Fe (36.1 ppm); good chapati quality
+5,PBW 771,PBW 621/2*PBW 343//PBW 590,PAU Ludhiana,99(E),06.01.2020,50.3,62.3,High grain hardness (63.2) and high Zn (41.2 ppm); resistant to brown rust
+6,PBW 752,CET 1876/3*PBW 343,PAU Ludhiana,1498(E),01.04.2019,49.7,65.4,Highly resistant to yellow and brown rust; good adaptability; Fe (41.2 ppm); protein content 12.4%; grain hardness 55.5
+7,PBW 757,PBW 550/PBW 175//3*PBW 343/2*PBW 343,PAU Ludhiana,1498(E),01.04.2019,36.7,44.9,High degree of resistance to yellow and brown rust; good chapati quality; high Zn (42.3 ppm)
+S.N,Name of Variety,Parentage,Developed by,Notification Number and Date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special Features
+8,HD 3237 (Pusa wheat 3237),HD 3016/HD 2967,ICAR-IARI New Delhi,1498(E), 01.04.2019,48.4,63.1,Resistance to yellow and brown rust; less reduction in yield at zero irrigation; good chapati quality (7.98)
+9,HI 1620 (Pusa wheat 1620),NAC/TH.AC/3*PVN/3/MIRLO/BUC/4/2*PASTOR/5/KACHU/6/KACHU,ICAR-IARI RS Indore,1498(E), 01.04.2019,49.1,61.8,Resistance to yellow and brown rust; tolerance to lodging
+Category,Details
+Area,"North Eastern Plains Zone (NEPZ) is an important zone for wheat production covering Eastern Uttar Pradesh, Bihar, Jharkhand, Odisha, West Bengal, Assam and plains of NE states."
+Area under cultivation,"8.85 million ha cultivated; estimated production 22.20 mt; average productivity 2509 kg/ha (national average 3424 kg/ha). Yield gap ~30–35%. Occupies 29.95% of total wheat area and accounts for 22.20% of total wheat production in India."
+Cropping system,"Winter is short, climate humid. Dominant patterns: Rice-wheat, maize-wheat, pulse-wheat. In Bihar: rice-wheat, maize-wheat, pulse-wheat. In Bengal: rice-wheat, potato-wheat."
+Major constraints,"Small land holdings, inadequate seed availability, lack of info on new technologies, late sowing, temperature fluctuations, high input prices, poor seed quality, non-availability of labour, poor machinery, diseases (spot blotch, brown rust), moisture stress (drought/excess rain), nutrient deficiencies, soil toxicities, waterlogging."
+Major research institute/university,"CSAU&A&T Kanpur, NDUA&T Faizabad, BHU-Varanasi – working on stress resilient genotypes and wheat improvement."
+Mega varieties of wheat,"Earlier: UP 262, HUW 234. Recent: HD 2967, DBW 14, DBW 39, CBW 38, K 0307, K 1006, HD 2733, NW 5054. High productivity achieved after DBW 187 (2017)."
+Number of wheat varieties developed (2018–2023),"Biofortified: 2 (Table 2.3); Timely sown irrigated: 2 (Table 2.4); Late sown irrigated: 2 (Table 2.4); Very late sown irrigated: 2 (Table 2.4); Timely sown restricted irrigation: 2 (Table 2.4)."
+Category,Details
+Area,"Central Zone (CZ) comprises Madhya Pradesh, Chhattisgarh, Gujarat, Rajasthan (Kota and Udaipur divisions), and Uttar Pradesh (Jhansi division)."
+Area under cultivation,"8.64 million ha cultivated; production 22.27 mt; average productivity 2578 kg/ha. Accounts for 20.37% of national wheat production, with 31.15% of total wheat area. Third largest wheat producing zone of India."
+Cropping system,"Wheat is the major crop; faces soil moisture stress and high temperature. Soybean-wheat system is dominant. Climate is hot and dry; high temperature and terminal heat stress prevalent."
+Major constraints,"High temperature at maturity, limited irrigation, poor seed replacement, low fertilizer use, imbalance use of fertilizer, non-availability of labour, small holdings, water table decline, incidence of diseases/pests (brown rust, aphids, termites), poor quality seed supply, inadequate access to technology, lack of mechanization."
+Major research institute/university,"Institutions working on wheat improvement: IARI-RS Indore, JNKVV-RS Powarkheda, SDAU-Jaipur, AU Jodhpur, JAU Junagadh, JNKVV Jabalpur."
+Mega varieties of wheat,"CZ Lok 1 – most preferred variety. Other varieties: GW 322, GW 366, HI 1544 (yield ~39.5 q/ha), HI 1634 (late sown, ~45.6 q/ha). Bread wheat with high gluten and premium quality, durum wheat also important."
+Number of wheat varieties developed (2018–2023),"Biofortified: 4 (1 durum, 3 bread) (Table 2.5); Timely sown irrigated: 5 (2 durum, 3 bread) (Table 2.6); Late sown irrigated: 6 (Table 2.6); Timely sown restricted irrigation: 6 (Table 2.6)."
+S.N.,Name of variety,Parentage,Developed by,Notification number and date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special features
+9,HD 3298,CL149/PBW343/CL882/HD2009,ICAR-IARI New Delhi,500(E), 29.01.2021,39.0,47.4,"Grain protein (12.1%), Good amount of Iron content (43.1 ppm), Chapatti quality (7.78/10), Bread quality (7.27)"
+1,DBW 370 (Karan Vaidehi),PREMIO/4/CROC1/Ae.SQUARROSA (205)//KAUZ/3/PIFED/5/2*BORL14,ICAR-IIWBR Karnal,1056(E), 06.03.2023,74.9,86.9,"Resistance to leaf rust, good chapatti quality score, high protein content (12.0%)"
+2,WH 1270,SHA7/PIIPL/VEE#6/3/FASAN/4/HD 28546/6*TRCH/4/WHEAT/2*FASAN/5/CBRD/KAUZ/6/MILAN/AMSEL/7/FRET2/KAUZ/8/2*WHEAT/5,CCSHAU Hisar,500(E), 29.01.2021,75.9,91.5,"Resistance to yellow rust (HS 40S, AC 13.8) and brown rust (HS 30S, AC 4.4), good chapatti quality (7.66/10)"
+3,DBW 327 (Karan Shivani),NELOK//SOKOLL/EXCALIBUR,ICAR-IIWBR Karnal,8(E), 24.12.2021,79.4,87.7,"Highly resistant to stripe and leaf rust, tolerant to heat (HSI=0.81) and drought stresses (0.78), good chapatti score (7.67), Zinc (40.6 ppm)"
+4,DBW 332 (Karan Aditya),MUTUS/ROLF07/MUCUY,ICAR-IIWBR Karnal,8(E), 24.12.2021,78.3,83.0,"Resistant to stripe and leaf rust, high protein content (12.2%)"
+5,PBW 826,WBLL1*2/KKT5//PASTOR/KUKUNA/3/KINGBIRD#1//INQALAB91*2/TUKURU/5/KAUZ/ALTAR84/AOS/3/MILAN/KAUZ/4/SAUAL,PAU Ludhiana,1056(E), 06.03.2023,63.6,84.0,"High hectolitre weight"
+6,DBW 222 (Karan Narendra),KACHU/SAUAL/8/ATTILA*2/PBW65/6/PVN/CAR422/ANA/5/BOW/CROW//BUC/PVN/3/YR/4/TRAP#1/7/ATTILA/2*PASTOR,ICAR-IIWBR Karnal,99(E), 06.01.2020,61.3,82.1,"Resistant to brown rust, only 18.4% reduction in yield recorded when sown late, good chapatti quality (7.5/10), bread quality (8.24)"
+S.N.,Name of variety,Parentage,Developed by,Notification number and date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special features
+1,DBW 187 (Karan Vandana),SOKOLL/4/CHEN/AEGILOPS SQUARROSA (TAUS)//BCN/3/2*WEAVER,ICAR-IIWBR Karnal,1064(E), 06.03.2017,75.9,87.1,"Resistance to leaf rust, high Fe content (43.1 ppm), Zn content (40.1 ppm)"
+2,DBW 303 (Karan Nirmal),D67.2/PARANA66.270//AE.SQUARROSA (372)/3/WEAVER,ICAR-IIWBR Karnal,1063(E), 06.03.2021,84.9,97.0,"High Fe content (41.1 ppm), high Zn content (39.8 ppm)"
+3,PBW 823,PBW 703/2*PBW 621,PAU Ludhiana,1050(E), 06.03.2020,75.3,89.4,"Resistant to brown rust, good chapatti quality (7.9/10), Fe 42.3 ppm, Zn 41.4 ppm"
+4,DBW 303 (duplicate entry visible),KACHU/3/SOKOLL//MUTUS/3/2*SOKOLL,ICAR-IIWBR Karnal,502(E), 29.01.2021,81.2,97.4,"Resistance to brown rust, Fe 42.3 ppm, Zn 41.2 ppm, Chapatti quality (7.6/10)"
+5,PBW 771,PBW 343/2*PASTOR//PBW 621,PAU Ludhiana,991(E), 06.01.2020,62.3,75.5,"High grain Fe content (42.1 ppm), Zn content (38.1 ppm), high protein content (12.5%)"
+6,PBW 757,PBW 550/TR 154/6*ROCKET/2*PBW 343/5/BOBWHITE,PAU Ludhiana,1498(E), 01.04.2019,36.7,44.0,"High grain Fe content (42.3 ppm), Zn content (41.3 ppm), good chapatti quality (7.9/10)"
+S.N.,Name of variety,Parentage,Developed by,Notification number and date,Yield (q/ha) Av.,Yield (q/ha) Pot.,Special features
+1,DDW 47,PBW343/S55/6/PVN,ICAR-IIWBR Karnal,99(E), 06.01.2020,57.3,74.1,"Very high yellow pigment content (7.9 ppm), Fe content (57.9 ppm), pasta acceptability score (7.9)"
+2,DBW 303 (Karan Vaishnavi),WBLL1/2*BRAMBLING,ICAR-IIWBR Karnal,1056(E), 06.03.2023,58.8,80.3,"Resistance to yellow and brown rust"
+3,DBW 187 (Karan Vandana),NAC/THB14/3*RL6058//AOS/2*PASTOR,ICAR-IIWBR Karnal,8(E), 24.12.2021,60.3,75.4,"Resistance to yellow and brown rust, good suitablity for chapatti (score 6.5/10), high Fe content (41.3 ppm)"
+4,MACS 6768,MACS 6221/2*RAJ 4037,IARI Pune,1056(E), 06.03.2023,55.6,92.7,"High protein (12.0%), Fe content (41.2 ppm), Zn content (27.6 ppm), good chapatti quality (8.3/10)"
+Category,Details
+Area,"Peninsular Zone (PZ) comprises Maharashtra, Karnataka, Andhra Pradesh, Telangana, Goa, Tamil Nadu."
+Area under cultivation,"0.71 million ha cultivated; estimated production 1.00 mt; productivity 1404 kg/ha. Species: aestivum, durum, dicoccum."
+Cropping system,"Bread wheat cultivated under irrigated conditions; durum and dicoccum cultivated under rainfed/restricted irrigation. Sorghum-wheat prevalent under rainfed in Western Maharashtra and Vidarbha. Sunflower-wheat sequence in Karnataka; sugarcane-wheat in some parts of Maharashtra and Karnataka. Importance also in Ahmednagar, Kolhapur (Maharashtra) and Belgaum (Karnataka)."
+Major constraints,"High temperature during crop cycle, short growing period (100–110 days vs 140–150 days in NWPZ), low rainfall, irregular power supply, high input cost, labour non-availability, poor electricity, high cost of custom hiring, untimely rains, lack of irrigation, poor access to seed of new varieties, temperature fluctuations."
+Major research institute/university,"MPKV-Research Station Niphad, UAS Dharwad, Agharkar Research Institute Pune – active in wheat breeding and productivity improvement."
+Mega varieties of wheat,"Earlier cultivars (HD 2189, MACS 2496) gave <40 q/ha. Improved with RAJ 4037, GW 322, NIAW 917 (2001–2012, ~44 q/ha). Late sown: DWR 195, HD 2501 (~33.3 q/ha). HI 977, NIAW 34 (2001–2005, ~36.4 q/ha)."
+Number of wheat varieties developed (2018–2023),"Biofortified: 5 (4 durum, 1 bread) (Table 2.7); Timely sown irrigated: 2 durum (Table 2.8); Timely sown restricted irrigation: 4 (2 bread, 2 durum) (Table 2.8)."
+
+Peninsular Zone ( PZ ),"Area Telangana : Peninsular Zone primarily comprises Maharashtra , Karnataka , Andhra Pradesh ,",Goa and Tamil Nadu .,"Area under cultivation : In PZ , wheat is cultivated in around 0.71 million ha area and"
+estimated production was 1.00 mt with productivity of 1404 kg / ha .,"All the three species of wheat viz . , aestivum , durum , and dicoccum are cultivated in this zone .","• Cropping system : In this zone , bread wheat is cultivated under irrigated environment and",durum and dicoccum wheat is generally cultivated under rain - fed / restricted irrigation situation .
+Sorghum - wheat is one of the most prevalent cropping systems in Western Marathwada and Vidarbha regions of Maharashtra and Northern parts of Karnataka .,Maize wheat and sunflower - wheat cropping sequence are being practiced in some parts of Karnataka .,Sugarcane - wheat cropping system is also gaining importance in Ahmedanagar and Kolhapur districts of Maharashtra and Belgaum district of Karnataka .,"Major constraints : In PZ , high temperature during crop cycle is limiting of wheat yield due to"
+
+
+AAI - W9,SHIATS - W9,HD 3237,Pusa Wheat 3237
+W10,SHIATS - W10,HD 3249,Pusa Wheat 3249
+AAI - W13,SHUATS - W13,HD 3271,Pusa Wheat 3271
+AAI - W15,SHUATS - W15,HD 3293,Pusa Purvika
+Birsa Gehun - 4,Shaurya,HD 3369,Pusa Wheat 3369
+Bra Gehun - 4,JKW 261,HD 3406,Unnat HD 2967
+C31018,Chattisgarh,HD 3407,Unnat HD 2932
+Amber Wheat,CG 1023,Chattisgarh,Hansa
+HD 3411,NICRA,Pusa Wheat 3411,Wheat
+CG 1029,Kanishka,HI 1620,Pusa wheat 1620
+CG 1036,Vidhya,HI 1621,Pusa Wheat 1621
+Chattisgarh Hansa,CG 1023,HI 1621,Pusa Wheat 1621
+Chattisgarh Amber,CG 1018,HI 1628,Pusa Wheat 1628
+DBW 187,Karan Vandana,HI 1633,Pusa Vani
+Karan Narendra,HI 1634,Pusa Ahilya,DBW 222
+Karan Shreya,HI 1636,Pusa Vakula,DBW 252
+Karan Aishwaraya,HI 1650,Pusa Ojaswi,DBW 296
+Karan Vaishnavi,HI 1653,Pusa Jagrati,DBW 303
+Karan Prema,HI 1654,Pusa Aditi,DBW 316
+Karan Shivani,HI 1655,Pusa Harsha,DBW 327
+Karan Aditya,HI 8802,Pusa Wheat 8802,DBW 332
+Vaidehi,HI 8805,Pusa Wheat 8805,DBW 370
+Karan Vrinda,HI 8823,Pusa Prabhat,DBW 371
+Karan Varuna,HI 8826,Pusa Poshtik,DBW 372
+Karan Manjari,HI 8830,Pusa Kirti,DDW 55
+Gujarat Wheat 1346,GW 1346,Him Palam Gehun 2,HPW 368
+Gujarat Wheat 513,GW 513,Him Palam Gehun 3,HPW 373
+GW 1346,Gujarat Wheat 1346,HPW 368,Him Palam Gehun 2
+GW 513,Gujarat Wheat 513,HPW 373,Him Palam Gehun 3
+HD 3226,Pusa Yashasvi,HUW 711,Malviya 711
+Jammu Wheat 672,JAUW 672,Pusa Jagrati,HI 1653
+JAUW 672,Jammu Wheat 672,Pusa Kirti,HI 8830
+JKW 261,Birsa Gehun - 4,Pusa Ojaswi,HI 1650
+JKW 261,Shaurya,Pusa Poshtik,HI 8826
+Kanishka,CG 1029,Pusa Prabhat,HI 8823
+Karan Aditya,DBW 332,Pusa Purvika,HD 3293
+Karan Aishwaraya,DBW 296,Pusa Vakula,HI 1636
+Karan Manjari,DDW 55,Pusa Vani,HI 1633
+Karan Narendra,DBW 222,Pusa Wheat 1620,HI 1620
+Karan Prema,DBW 316,Pusa Wheat 1621,HI 1621
+Karan Shivani,DBW 327,Pusa Wheat 1621,HI 1621
+Karan Shreya,DBW 252,Pusa Wheat 1628,HI 1628
+Karan Vaidehi,DBW 370,Pusa wheat 3237,HD 3237
+Karan Vaishnavi,DBW 303,Pusa Wheat 3249,HD 3249
+Karan Vandana,DBW 187,Pusa Wheat 3271,HD 3271
+Karan Varuna,DBW 372,Pusa Wheat 3369,HD 3369
+Karan Vrinda,DBW 371,Pusa Wheat 8802,HI 8802
+MACS 4100,MACS Jejuri,Pusa Wheat 8805,HI 8805
+MACS 6768,MACS Sakas,Pusa Yashasvi,HD 3226
+MACS Jejuri,MACS 4100,Shalimar wheat 3,SKW 356
+MACS Sakas,MACS 6768,SHIATS - W9,AAI - W9
+Malviya 711,HUW 711,SHIATS - W10,AAI - W10
+NIAW 3170,Phule Satwik,SHUATS - W13,AAI - W13
+NIAW 3624,Phule Anupam,SHUATS - W15,AAI - W15
+NICRA Pusa,HD 3411,SKW 356,Shalimar wheat 3
+Wheat 3411,PBW 761,Unnat PBW 550,SunehriPBW 766
