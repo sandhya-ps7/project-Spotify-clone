@@ -1,0 +1,301 @@
+<%- include('partials/header', { title: 'Browse Music' }) %>
+
+<div class="browse-container">
+    <div class="container">
+        <!-- Browse Header -->
+        <section class="browse-header">
+            <h1><i class="fas fa-compass"></i> Browse Music</h1>
+            <p>Discover millions of songs from your favorite artists</p>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Songs</button>
+                <button class="filter-tab" data-filter="popular">Most Popular</button>
+                <button class="filter-tab" data-filter="recent">Recently Added</button>
+                <button class="filter-tab" data-filter="trending">Trending</button>
+            </div>
+            
+            <div class="sort-options">
+                <select id="sortSelect" class="sort-select">
+                    <option value="popular">Most Popular</option>
+                    <option value="recent">Recently Added</option>
+                    <option value="title">Title (A-Z)</option>
+                    <option value="artist">Artist (A-Z)</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Songs Grid -->
+        <section class="songs-section">
+            <% if (songs && songs.length > 0) { %>
+                <div class="songs-grid" id="songsGrid">
+                    <% songs.forEach(song => { %>
+                        <div class="song-card" data-song-id="<%= song.id %>">
+                            <div class="song-image">
+                                <img src="/<%= song.cover_image || 'assets/default-cover.jpg' %>" alt="<%= song.title %>">
+                                <div class="play-overlay">
+                                    <button class="play-button" onclick="playSong(<%= song.id %>, '<%= song.title %>', '<%= song.artist %>', '/<%= song.cover_image %>')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                                <div class="song-actions">
+                                    <button class="action-btn" onclick="toggleLike(<%= song.id %>)" title="Like">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="action-btn" title="Add to playlist">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                    <button class="action-btn" title="More">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="song-info">
+                                <h3><a href="/song/<%= song.id %>"><%= song.title %></a></h3>
+                                <p><%= song.artist %></p>
+                                <div class="song-stats">
+                                    <span><i class="fas fa-play-circle"></i> <%= song.play_count.toLocaleString() %></span>
+                                    <span><i class="fas fa-heart"></i> <%= song.likes_count %></span>
+                                </div>
+                            </div>
+                        </div>
+                    <% }); %>
+                </div>
+            <% } else { %>
+                <div class="empty-state">
+                    <i class="fas fa-music"></i>
+                    <h3>No songs found</h3>
+                    <p>Try adjusting your filters or search</p>
+                </div>
+            <% } %>
+        </section>
+
+        <!-- Load More -->
+        <% if (songs && songs.length >= 20) { %>
+            <div class="load-more-section">
+                <button class="btn-load-more">
+                    <i class="fas fa-sync-alt"></i>
+                    Load More Songs
+                </button>
+            </div>
+        <% } %>
+    </div>
+</div>
+
+<style>
+.browse-container {
+    min-height: calc(100vh - 200px);
+    padding: 40px 0;
+}
+
+.browse-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.browse-header h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.browse-header h1 i {
+    color: var(--primary);
+}
+
+.browse-header p {
+    font-size: 18px;
+    color: var(--text-secondary);
+}
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: var(--surface);
+    border-radius: 16px;
+}
+
+.filter-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-tab {
+    padding: 12px 24px;
+    background: transparent;
+    border: 2px solid var(--border);
+    border-radius: 25px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-tab:hover {
+    border-color: var(--primary);
+    color: var(--text);
+}
+
+.filter-tab.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.sort-select {
+    padding: 12px 20px;
+    background: var(--background);
+    border: 2px solid var(--border);
+    border-radius: 25px;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.sort-select:hover {
+    border-color: var(--primary);
+}
+
+.songs-section {
+    margin-bottom: 60px;
+}
+
+.song-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.song-card:hover .song-actions {
+    opacity: 1;
+}
+
+.action-btn {
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+    background: var(--primary);
+    transform: scale(1.1);
+}
+
+.load-more-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.btn-load-more {
+    padding: 16px 40px;
+    background: var(--surface);
+    border: 2px solid var(--primary);
+    border-radius: 30px;
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-load-more:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-load-more i {
+    animation: rotate 2s linear infinite paused;
+}
+
+.btn-load-more:hover i {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+    .filter-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .filter-tabs {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+    
+    .sort-select {
+        width: 100%;
+    }
+    
+    .browse-header h1 {
+        font-size: 36px;
+    }
+}
+</style>
+
+<script>
+// Filter functionality
+document.querySelectorAll('.filter-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        
+        const filter = tab.getAttribute('data-filter');
+        console.log('Filter:', filter);
+        // Add filtering logic here
+    });
+});
+
+// Sort functionality
+document.getElementById('sortSelect').addEventListener('change', (e) => {
+    console.log('Sort by:', e.target.value);
+    // Add sorting logic here
+});
+
+// Load more functionality
+const loadMoreBtn = document.querySelector('.btn-load-more');
+if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+        console.log('Loading more songs...');
+        // Add load more logic here
+    });
+}
+</script>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,36 @@
+{
+  "name": "music-suno-ejs",
+  "version": "2.0.0",
+  "description": "Music Suno - Full Stack Music Streaming Platform with EJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "api": "node server.js",
+    "dev:all": "concurrently \"npm run api\" \"npm run dev\""
+  },
+  "keywords": [
+    "music",
+    "streaming",
+    "ejs",
+    "express",
+    "mysql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "concurrently": "^8.2.2"
+  }
+}

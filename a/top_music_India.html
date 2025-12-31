@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Suno 🎵</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.85;
+    }
+
+    .now-playing {
+      border: 2px solid #00ffd5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card" data-song="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Soft beats, deep feelings ❤️</p>
+    </div>
+
+    <div class="card" data-song="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic vibes only ✨</p>
+    </div>
+
+    <div class="card" data-song="rahat.mp3">
+      <h2>Mere Pass Tum</h2>
+      <p>Pure emotion 🎶</p>
+    </div>
+
+    <div class="card" data-song="ram-setu.mp3">
+      <h2>Ram Setu</h2>
+      <p>Where devotion becomes strength 🔱</p>
+    </div>
+
+    <div class="card" data-song="Ready-Chal-Le.mp3">
+      <h2>Naa Ready</h2>
+      <p>Energy booster 🔥</p>
+    </div>
+
+    <div class="card" data-song="Tum-Saath-Ho.mp3">
+      <h2>Tum Saath Ho</h2>
+      <p>Love that stays 💕</p>
+    </div>
+    <div class="card" data-song="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic vibes only ✨</p>
+    </div>
+
+    <div class="card" data-song="rahat.mp3">
+      <h2>Mere Pass Tum</h2>
+      <p>Pure emotion 🎶</p>
+    </div>
+
+    <div class="card" data-song="ram-setu.mp3">
+      <h2>Ram Setu</h2>
+      <p>Where devotion becomes strength 🔱</p>
+    </div>
+
+    <div class="card" data-song="Ready-Chal-Le.mp3">
+      <h2>Naa Ready</h2>
+      <p>Energy booster 🔥</p>
+    </div>
+
+    <div class="card" data-song="Tum-Saath-Ho.mp3">
+      <h2>Tum Saath Ho</h2>
+      <p>Love that stays 💕</p>
+    </div>
+    <div class="card" data-song="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic vibes only ✨</p>
+    </div>
+
+    <div class="card" data-song="rahat.mp3">
+      <h2>Mere Pass Tum</h2>
+      <p>Pure emotion 🎶</p>
+    </div>
+
+    <div class="card" data-song="ram-setu.mp3">
+      <h2>Ram Setu</h2>
+      <p>Where devotion becomes strength 🔱</p>
+    </div>
+
+    <div class="card" data-song="Ready-Chal-Le.mp3">
+      <h2>Naa Ready</h2>
+      <p>Energy booster 🔥</p>
+    </div>
+
+    <div class="card" data-song="Tum-Saath-Ho.mp3">
+      <h2>Tum Saath Ho</h2>
+      <p>Love that stays 💕</p>
+    </div>
+    
+
+  </div>
+
+  <script>
+    const cards = document.querySelectorAll(".card");
+    const audio = new Audio();
+    let currentCard = null;
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => {
+
+        if (currentCard) {
+          currentCard.classList.remove("now-playing");
+        }
+
+        const song = card.getAttribute("data-song");
+        audio.src = "./music/" + song;
+        audio.play();
+
+        card.classList.add("now-playing");
+        currentCard = card;
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title !== 'undefined' ? title + ' - ' : '' %>Music Suno</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="nav-brand">
+                <i class="fas fa-music"></i>
+                <span>Music Suno</span>
+            </a>
+            
+            <div class="nav-search">
+                <form action="/search" method="GET">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="q" placeholder="Search songs, artists..." value="<%= typeof query !== 'undefined' ? query : '' %>">
+                </form>
+            </div>
+            
+            <div class="nav-links">
+                <% if (typeof user !== 'undefined' && user) { %>
+                    <a href="/dashboard" class="<%= page === 'dashboard' ? 'active' : '' %>"><i class="fas fa-home"></i> Dashboard</a>
+                    <a href="/browse" class="<%= page === 'browse' ? 'active' : '' %>"><i class="fas fa-compass"></i> Browse</a>
+                    <a href="/playlists" class="<%= page === 'playlists' ? 'active' : '' %>"><i class="fas fa-list"></i> Playlists</a>
+                    <a href="/liked" class="<%= page === 'liked' ? 'active' : '' %>"><i class="fas fa-heart"></i> Liked</a>
+                    <div class="user-menu">
+                        <button class="user-btn">
+                            <i class="fas fa-user-circle"></i>
+                            <%= user.username %>
+                        </button>
+                        <div class="dropdown">
+                            <a href="/profile"><i class="fas fa-user"></i> Profile</a>
+                            <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                <% } else { %>
+                    <a href="/browse"><i class="fas fa-compass"></i> Browse</a>
+                    <a href="/login" class="btn-primary">Login</a>
+                    <a href="/register" class="btn-secondary">Sign Up</a>
+                <% } %>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">

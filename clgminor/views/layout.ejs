@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title !== 'undefined' ? title : 'Music Suno' %> - Stream Your Favorite Music</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-music"></i>
+                <span>Music Suno</span>
+            </div>
+            
+            <div class="nav-search">
+                <form action="/search" method="GET">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="q" placeholder="Search songs, artists..." value="<%= typeof query !== 'undefined' ? query : '' %>">
+                </form>
+            </div>
+            
+            <div class="nav-links">
+                <% if (user) { %>
+                    <a href="/dashboard"><i class="fas fa-home"></i> Dashboard</a>
+                    <a href="/browse"><i class="fas fa-compass"></i> Browse</a>
+                    <a href="/playlists"><i class="fas fa-list"></i> Playlists</a>
+                    <a href="/liked"><i class="fas fa-heart"></i> Liked</a>
+                    <div class="user-menu">
+                        <button class="user-btn">
+                            <i class="fas fa-user-circle"></i>
+                            <%= user.username %>
+                        </button>
+                        <div class="dropdown">
+                            <a href="/profile"><i class="fas fa-user"></i> Profile</a>
+                            <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                <% } else { %>
+                    <a href="/browse"><i class="fas fa-compass"></i> Browse</a>
+                    <a href="/login" class="btn-primary">Login</a>
+                    <a href="/register" class="btn-secondary">Sign Up</a>
+                <% } %>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <%- body %>
+    </main>
+
+    <!-- Music Player (Fixed Bottom) -->
+    <div class="music-player" id="musicPlayer" style="display: none;">
+        <div class="player-content">
+            <div class="player-song-info">
+                <img src="/assets/card1img.jpeg" alt="Song" id="playerImage">
+                <div class="player-details">
+                    <h4 id="playerTitle">Song Title</h4>
+                    <p id="playerArtist">Artist Name</p>
+                </div>
+            </div>
+            
+            <div class="player-controls">
+                <button class="control-btn"><i class="fas fa-random"></i></button>
+                <button class="control-btn"><i class="fas fa-step-backward"></i></button>
+                <button class="control-btn play-btn" id="playPauseBtn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="control-btn"><i class="fas fa-step-forward"></i></button>
+                <button class="control-btn"><i class="fas fa-redo"></i></button>
+            </div>
+            
+            <div class="player-progress">
+                <span class="time" id="currentTime">0:00</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <span class="time" id="duration">0:00</span>
+            </div>
+            
+            <div class="player-volume">
+                <button class="control-btn"><i class="fas fa-heart"></i></button>
+                <button class="control-btn"><i class="fas fa-volume-up"></i></button>
+                <input type="range" min="0" max="100" value="70" class="volume-slider">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-music"></i> Music Suno</h3>
+                    <p>Your ultimate music streaming platform</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li><a href="/browse">Browse</a></li>
+                        <li><a href="#">Top Charts</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Genres</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Music Suno. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Arc | Student Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>ALPHA ARC</h1>
+            <p>STUDENT HELPER</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#quiz">QUIZ GEN</a></li>
+            <li><a href="#audio">AUDIO GEN</a></li>
+            <li><a href="#history">HISTORY</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#login" class="login-nav">LOGIN</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="welcome-section">
+        <div class="welcome-content">
+            <h2 class="fade-in">WELCOME TO</h2>
+            <h1 class="main-title">ALPHA ARC</h1>
+            <p class="tagline">Empowering Students with AI-Driven Study Tools. Convert your PDFs into Interactive Quizzes and Natural Audio in seconds.</p>
+            <div class="welcome-features">
+                <span>⚡ Smart Quiz</span> | <span>🎧 AI Audio</span> | <span>📊 History Tracking</span>
+            </div>
+            <a href="#quiz" class="cta-button">Get Started Now</a>
+        </div>
+        <div class="welcome-image">
+             <img src="./assets/logo (1).png" alt="Education Illustration" style="background-color: whiteds;">
+        </div>
+    </section>
+
+    <section id="quiz" class="main-content">
+        <div class="glass-card">
+            <h2>PDF TO QUIZ GENERATOR</h2>
+            <p class="section-desc">Upload your notes and let our AI create a custom test for you.</p>
+            <div class="action-area">
+                <form method="post" action="/home/file" enctype="multipart/form-data">
+                        <input type="file" id="quiz-pdf" name="pdf" hidden onchange="this.form.submit()">
+                        <label for="quiz-pdf" class="btn-primary">UPLOAD PDF FILE 📁 </label>
+                </form>
+
+                
+                <button class="btn-outline"><a href="http://localhost/api/upload">GENERATE QUIZ</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="audio" class="main-content">
+        <div class="glass-card">
+            <h2>PDF TO AUDIO GENERATOR</h2>
+            <p class="section-desc">Transform your textbooks into audiobooks with natural voices.</p>
+            <div class="action-area">
+                <input type="file" id="audio-pdf" hidden>
+                <label for="audio-pdf" class="btn-primary">UPLOAD PDF FILE 📁</label>
+            </div>
+            
+            <div class="voice-box">
+                <h3>SELECT YOUR PREFERENCE</h3>
+                <div class="selectors">
+                    <div class="input-group">
+                        <label>LANGUAGE</label>
+                        <select>
+                            <option>Hindi</option>
+                            <option>English</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>VOICE NAME</label>
+                        <select>
+                            <option>Aviraj (Male - Hindi)</option>
+                            <option>Reeta (Female - Hindi)</option>
+                            <option>Devil (Male - English)</option>
+                            <option>Lily (Female - English)</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn-generate">GENERATE AUDIO 🎧</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="main-content">
+        <div class="glass-card wide-card">
+            <h2>PAST ACTIVITY HISTORY</h2>
+            <div class="history-grid">
+                <div class="hist-col">
+                    <div class="col-header">📝 Generated Quizzes</div>
+                    <div class="hist-item">
+                        <div class="hist-info">
+                            <strong>Physics_Chapter_1.pdf</strong>
+                            <span>12 Questions | 21 Dec 2024</span>
+                        </div>
+                        <button class="small-btn">View</button>
+                    </div>
+                    <div class="hist-item">
+                        <div class="hist-info">
+                            <strong>Modern_History_Rev.pdf</strong>
+                            <span>20 Questions | 19 Dec 2024</span>
+                        </div>
+                        <button class="small-btn">View</button>
+                    </div>
+                </div>
+                <div class="hist-col">
+                    <div class="col-header">🎧 Generated Audio</div>
+                    <div class="hist-item">
+                        <div class="hist-info">
+                            <strong>English_Literature.pdf</strong>
+                            <span>Voice: Lily | 15 Mins</span>
+                        </div>
+                        <button class="small-btn">Play</button>
+                    </div>
+                    <div class="hist-item">
+                        <div class="hist-info">
+                            <strong>Economics_Summary.pdf</strong>
+                            <span>Voice: Aviraj | 08 Mins</span>
+                        </div>
+                        <button class="small-btn">Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="login" class="main-content">
+        <div class="glass-card small-card">
+            <h2>STUDENT LOGIN</h2>
+            <div class="login-form">
+                <div class="input-group">
+                    <label>Student Name</label>
+                    <input type="text" placeholder="Enter Full Name">
+                </div>
+                <div class="input-group">
+                    <label>College / School Name</label>
+                    <input type="text" placeholder="Enter Institution Name">
+                </div>
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <input type="date">
+                </div>
+                <button class="btn-generate">SUBMIT DETAILS</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="main-content">
+        <div class="about-box">
+            <h2>ABOUT ALPHA ARC</h2>
+            <p>Welcome to <b>Alpha Arc</b>, your ultimate student companion. We empower students by transforming static study materials into dynamic resources. Our AI tools allow you to generate quizzes to test your knowledge or convert PDFs into convenient audio formats for multitasking. Our mission is simple: <b>To make studying smarter, not harder.</b></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Alpha Arc | Your Personal Study Helper</p>
+    </footer>
+
+</body>
+</html>

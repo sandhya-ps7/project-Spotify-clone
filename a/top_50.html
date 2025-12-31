@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Cards Player</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 80%;
+      max-width: 800px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card" data-music="Ready-Chal-Le.mp3">
+      <h2>Naa Ready</h2>
+      <p>Energetic vibe 🔥</p>
+    </div>
+
+    <div class="card" data-music="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic mood ❤️</p>
+    </div>
+
+    <div class="card" data-music="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Romantic • Calm • Soulful🎶</p>
+    </div>
+    <div class="card" data-music="Tum-Saath-Ho-Toh.mp3">
+      <h2>Tum saath ho toh</h2>
+      <p>Romantic song 🎶</p>
+    </div>
+    <div class="card" data-music="ram-setu.mp3">
+      <h2>Ram setu</h2>
+      <p>Calm & Spiritual 🎶</p>
+    </div>
+    <div class="card" data-music="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic mood ❤️</p>
+    </div>
+
+    <div class="card" data-music="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Romantic • Calm • Soulful🎶</p>
+    </div>
+    <div class="card" data-music="Tum-Saath-Ho-Toh.mp3">
+      <h2>Tum saath ho toh</h2>
+      <p>Romantic song 🎶</p>
+    </div>
+    <div class="card" data-music="ram-setu.mp3">
+      <h2>Ram setu</h2>
+      <p>Calm & Spiritual 🎶</p>
+    </div>
+    <div class="card" data-music="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic mood ❤️</p>
+    </div>
+
+    <div class="card" data-music="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Romantic • Calm • Soulful🎶</p>
+    </div>
+    <div class="card" data-music="Tum-Saath-Ho-Toh.mp3">
+      <h2>Tum saath ho toh</h2>
+      <p>Romantic song 🎶</p>
+    </div>
+    <div class="card" data-music="ram-setu.mp3">
+      <h2>Ram setu</h2>
+      <p>Calm & Spiritual 🎶</p>
+    </div>
+    <div class="card" data-music="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic mood ❤️</p>
+    </div>
+
+    <div class="card" data-music="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Romantic • Calm • Soulful🎶</p>
+    </div>
+    <div class="card" data-music="Tum-Saath-Ho-Toh.mp3">
+      <h2>Tum saath ho toh</h2>
+      <p>Romantic song 🎶</p>
+    </div>
+    <div class="card" data-music="ram-setu.mp3">
+      <h2>Ram setu</h2>
+      <p>Calm & Spiritual 🎶</p>
+    </div>
+    <div class="card" data-music="mahi.mp3">
+      <h2>Mahi Jinna</h2>
+      <p>Romantic mood ❤️</p>
+    </div>
+
+    <div class="card" data-music="Haseen.mp3">
+      <h2>Haseen</h2>
+      <p>Romantic • Calm • Soulful🎶</p>
+    </div>
+    <div class="card" data-music="Tum-Saath-Ho-Toh.mp3">
+      <h2>Tum saath ho toh</h2>
+      <p>Romantic song 🎶</p>
+    </div>
+    <div class="card" data-music="ram-setu.mp3">
+      <h2>Ram setu</h2>
+      <p>Calm & Spiritual 🎶</p>
+    </div>
+
+  </div>
+
+  <script>
+    const cards = document.querySelectorAll(".card");
+    const audio = new Audio();
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => {
+        const song = card.getAttribute("data-music");
+        audio.src = "./music/" + song;
+        audio.play();
+      });
+    });
+  </script>
+
+</body>
+</html>
